@@ -1,5 +1,20 @@
-# php-intellg package
+# Atom Idea
+This is a package to convert atom in a small PHP IDE.
+It's just getting started so you shouldn't expect magic, it will capture every piece of documentation written in the format:
 
-A short description of your package.
+```
+/**
+ * Description of the function
+ *
+ * @param String text Description of the 'text' parameter
+ * @return boolean Description of the return
+ */
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+function something($text)
+{
+    return true;
+}
+```
+
+##### Note:
+This is my first package for atom, and I have almost zero experience with its environment, so it may have weird bugs.
