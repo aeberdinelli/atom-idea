@@ -1,0 +1,7 @@
+{
+    "atom-workspace": {
+        "ctrl-alt-o": "php-intellg:toggle",
+        "ctrl-f12": "php-intellg:go",
+        "ctrl-space": "php-intellg:obtener_sugerencias"
+    }
+}

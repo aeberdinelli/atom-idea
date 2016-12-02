@@ -1,0 +1,42 @@
+{
+    "context-menu": {
+        "atom-text-editor": [
+            {
+                "label": "Toggle PHP IntelliSense",
+                "command": "php-intellg:toggle"
+            }
+        ]
+    },
+    "menu": [
+        {
+            "label": "Packages",
+            "submenu": [
+                {
+                    "label": "PHP IntelliSense",
+                    "submenu": [
+                        {
+                            "label": "Toggle autosuggest",
+                            "command": "php-intellg:toggle"
+                        },
+                        {
+                            "label": "Get suggestions",
+                            "command": "php-intellg:suggest"
+                        },
+                        {
+                            "label": "Analyze project",
+                            "command": "php-intellg:analyze"
+                        },
+                        {
+                            "label": "Analyze file",
+                            "command": "php-intellg:analyze_file"
+                        },
+                        {
+                            "label": "Go to declaration",
+                            "command": "php-intellg:go"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
