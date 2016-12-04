@@ -1,0 +1,7 @@
+{
+    "atom-workspace": {
+        "ctrl-alt-o": "atom-idea:toggle",
+        "ctrl-f12": "atom-idea:go",
+        "ctrl-space": "atom-idea:obtener_sugerencias"
+    }
+}

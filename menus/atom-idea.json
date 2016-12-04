@@ -2,8 +2,8 @@
     "context-menu": {
         "atom-text-editor": [
             {
-                "label": "Toggle PHP IntelliSense",
-                "command": "php-intellg:toggle"
+                "label": "Toggle Atom Idea",
+                "command": "atom-idea:toggle"
             }
         ]
     },
@@ -12,27 +12,27 @@
             "label": "Packages",
             "submenu": [
                 {
-                    "label": "PHP IntelliSense",
+                    "label": "Atom Idea",
                     "submenu": [
                         {
                             "label": "Toggle autosuggest",
-                            "command": "php-intellg:toggle"
+                            "command": "atom-idea:toggle"
                         },
                         {
                             "label": "Get suggestions",
-                            "command": "php-intellg:suggest"
+                            "command": "atom-idea:suggest"
                         },
                         {
                             "label": "Analyze project",
-                            "command": "php-intellg:analyze"
+                            "command": "atom-idea:analyze"
                         },
                         {
                             "label": "Analyze file",
-                            "command": "php-intellg:analyze_file"
+                            "command": "atom-idea:analyze_file"
                         },
                         {
                             "label": "Go to declaration",
-                            "command": "php-intellg:go"
+                            "command": "atom-idea:go"
                         }
                     ]
                 }
