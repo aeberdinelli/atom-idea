@@ -22,11 +22,18 @@ function something($text)
 
 You can find a good example of its features if you try it with `phpBB`.
 
-## Features
+## Install
+If you wish to test (or help its development), you can install this package):
+
+* Clone the repo: `git clone git@github.com:aeberdinelli/atom-idea.git && cd atom-idea`
+* Install the dependencies: `apm install`
+* Link the package to atom and run in development mode: `apm link && atom -d`
+
+### Features
 - **Jump to**: Jump to the file and line where the function is declared.
 - **Suggestions**: It will show the atom autocomplete menu showing every parameter and its type so you can understand the function without having to search for its declaration and read it.
 
-## Languages
+### Languages
 It will support only `PHP` at first, but I expect to add Java once PHP is ready, and other languages in the future.
 
 ##### Note:
