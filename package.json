@@ -7,6 +7,14 @@
     "activationCommands": {
         "atom-workspace": "atom-idea:toggle"
     },
+    "providedServices": {
+        "autocomplete.provider": {
+            "versions": {
+                "2.0.0": "provide",
+                "2.31.1": "provide"
+            }
+        }
+    },
     "repository": "https://github.com/aeberdinelli/atom-idea",
     "license": "MIT",
     "engines": {
