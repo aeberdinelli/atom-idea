@@ -1,31 +1,32 @@
 {
-    "name": "atom-idea",
-    "main": "./lib/atom-idea",
-    "version": "1.0.0",
-    "description": "Some basic IDE features for PHP in Atom",
-    "keywords": [],
-    "activationCommands": {
-        "atom-workspace": "atom-idea:toggle"
-    },
-    "providedServices": {
-        "autocomplete.provider": {
-            "versions": {
-                "2.0.0": "provide",
-                "2.31.1": "provide"
-            }
-        }
-    },
-    "repository": "https://github.com/aeberdinelli/atom-idea",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    },
-    "dependencies": {
-        "promise": "^7.1.1"
-    },
-    "devDependencies": {
-        "babel": "^6.5.2",
-        "babel-cli": "^6.18.0",
-        "babel-preset-es2015": "^6.18.0"
+  "name": "atom-idea",
+  "main": "./lib/atom-idea",
+  "version": "1.0.0",
+  "description": "Some basic IDE features for PHP in Atom",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": "atom-idea:toggle"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provide",
+        "2.31.1": "provide"
+      }
     }
+  },
+  "repository": "https://github.com/aeberdinelli/atom-idea",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "php-parser": "^0.1.4",
+    "promise": "^7.1.1"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0"
+  }
 }
