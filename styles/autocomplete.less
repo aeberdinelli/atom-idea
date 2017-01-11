@@ -1,6 +1,6 @@
 autocomplete-suggestion-list.autocomplete-suggestion-list
 {
-    li.atom-idea
+    li
     {
         span
         {
@@ -8,6 +8,8 @@ autocomplete-suggestion-list.autocomplete-suggestion-list
             {
                 font-size: 90%;
                 font-weight: 100;
+                line-height: 24px;
+                transition: 300ms ease;
             }
 
             &.right-label
@@ -16,5 +18,19 @@ autocomplete-suggestion-list.autocomplete-suggestion-list
                 letter-spacing: -0.5px;
             }
         }
+
+        &.selected
+        {
+            span.word
+            {
+                white-space: normal;
+                transition: 300ms ease;
+            }
+        }
+    }
+
+    ol.list-group li > span.right-label
+    {
+        vertical-align: top;
     }
 }
