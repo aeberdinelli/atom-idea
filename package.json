@@ -21,6 +21,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "debug": "^2.6.0",
     "php-parser": "^0.1.4",
     "promise": "^7.1.1"
   },
