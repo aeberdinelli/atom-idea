@@ -1,7 +1,7 @@
 {
   "name": "atom-idea",
   "main": "./lib/atom-idea",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Some basic IDE features for PHP in Atom",
   "keywords": [],
   "activationCommands": {
