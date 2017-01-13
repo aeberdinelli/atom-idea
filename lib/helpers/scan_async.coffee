@@ -39,6 +39,10 @@ module.exports = (files) ->
   @callback = @async()
 
   files.forEach (file) ->
+  	emit 'scan-start',
+        'file': file,
+       	'files': files.length
+
     buffer = fs.readFileSync(file)
     lineas = buffer.toString().split('\n')
 
@@ -123,9 +127,6 @@ module.exports = (files) ->
         else if declarations[lastone] and short.indexOf('*') > -1 and short.indexOf('@') == -1 and es_documentacion
           declarations[lastone].description += short.replace(/\*/, '').trim()
       return
-
-      emit 'file-completed',
-        'file': file
 
     return
   emit 'analysis-done',
